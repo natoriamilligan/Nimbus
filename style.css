@@ -8,21 +8,20 @@ main {
     background-color: gray;
 }
 
+header {
+    height: 50px;
+}
+
 #nimbus-title {
-    align-content: end;
+    padding-top: .4rem;
 }
 
 nav ul {
-    display: flex;
-    flex-direction: column;
-    background-color: pink;
+    display: none;
 }
 
 ul li {
-    list-style-type: none;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
 ul li a {
@@ -32,14 +31,14 @@ ul li a {
 
 #nav-toggle {
     position: absolute;
-    top: .3rem;
+    top: .55rem;
     right: .5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
+    width: 25px;
     height: 30px;
-    padding: 3px 0 3px 0;
+    padding: 5px 0 5px 0;
 }
 
 .nav-bar {
@@ -50,7 +49,16 @@ ul li a {
 }
 
 #nav-links.active {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+header.active {
+    height: auto;
 }
 
 
