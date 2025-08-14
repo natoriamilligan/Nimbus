@@ -8,24 +8,31 @@ main {
     background-color: gray;
 }
 
-header {
+#nimbus-title {
+    align-content: end;
+}
+
+nav ul {
     display: flex;
-    justify-content: space-between;
-    height: 50px;
+    flex-direction: column;
+    background-color: pink;
 }
 
 ul li {
     list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
 }
 
-nav ul {
-    display: none;
-    gap: 10px;
+ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 #nav-toggle {
     position: absolute;
-    top: .5rem;
+    top: .3rem;
     right: .5rem;
     display: flex;
     flex-direction: column;
@@ -41,4 +48,9 @@ nav ul {
     background-color: gray;
     border-radius: 30px;
 }
+
+#nav-links.active {
+    display: none;
+}
+
 
