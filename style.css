@@ -55,10 +55,6 @@ ul li a {
     list-style-type: none;
     width: 100%;
     text-align: center;
+    position: fixed;
 }
-
-header.active {
-    height: auto;
-}
-
 
