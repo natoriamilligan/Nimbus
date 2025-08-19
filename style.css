@@ -9,15 +9,21 @@ main {
 }
 
 header {
+    position: relative;
     height: 50px;
 }
 
 #nimbus-title {
+    height: 100%;
     padding-top: .4rem;
 }
 
-nav ul {
-    display: none;
+#nav-links {
+    opacity: 0;
+    transform: translateY(-10px); /* start slightly above */
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    visibility: hidden;
 }
 
 ul li {
@@ -49,12 +55,17 @@ ul li a {
 }
 
 #nav-links.active {
+    opacity: 1;
     display: flex;
+    background-color: white;
     flex-direction: column;
-    background-color: pink;
     list-style-type: none;
     width: 100%;
     text-align: center;
-    position: fixed;
+    position: absolute;
+    transform: translateY(0);
+    z-index: 0;
+    pointer-events: auto;
+    visibility: visible;
 }
 
