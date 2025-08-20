@@ -155,7 +155,36 @@ section {
 }
 
 #testimonial-section {
-    padding-top: 30px;
+    padding-top: 20px;
+}
+
+#get-app {
+    font-family: Nunito;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(247, 245, 245);
+    height: 150px;
+}
+
+#cta-section {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+#cta-btn {
+    width: 185px;
+    height: 70px;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #3fd6f0;
+    color: white;
+    border: none;
+    font-family: Nunito;
+    letter-spacing: 0.5px;
 }
 
 
