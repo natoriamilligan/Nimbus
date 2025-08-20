@@ -54,7 +54,6 @@ ul li a {
     height: 3px;
     width: 100%;
     background-color: #3fd6f0;
-;
     border-radius: 5px;
 }
 
@@ -76,14 +75,14 @@ ul li a {
 }
 
 section {
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
 }
 
 #hero-section {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 40vh;
+    height: auto;
     background-color: #eef0f2;
     padding-top: 30px;
     padding-bottom: 15px;
@@ -95,30 +94,70 @@ section {
 }
 
 #hero-section h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: Nunito;
+    font-weight: 300;
     margin-top: 10px;
 }
 
 #hero-section button {
-    width: 175px;
-    height: 60px;
-    border-radius: 30px;
-    font-size: 20px;
+    width: 185px;
+    height: 70px;
+    border-radius: 25px;
+    font-size: 22px;
     font-weight: bold;
     background-color: #3fd6f0;
     color: white;
     border: none;
+    font-family: Nunito;
+    letter-spacing: 0.5px;
 }
 
 #hero-section button:hover {
     background-color: #1fc5e2;
-;
+}
+
+.dot-separator {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
 }
 
 .home-sections {
     height: 300px;
+    padding: 0px 60px 0 60px;
 }
+
+.home-sections h2 {
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#as-seen-on {
+    font-family: Nunito;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #3fd6f0;
+    height: 150px;
+}
+
+#testimonial-section {
+    padding-top: 30px;
+}
+
 
 
 
