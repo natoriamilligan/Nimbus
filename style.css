@@ -4,20 +4,24 @@
     box-sizing: border-box;
 }
 
+.no-scroll {
+    overflow-y: hidden;
+}
+
 main {
-    display: flex;
     flex-direction: column;
     height: auto;
 }
 
 header {
     position: relative;
-    height: 70px;
+    height: 60px;
 }
 
 #nimbus-title {
     height: 100%;
-    padding-top: .4rem;
+    padding-top: .6rem;
+    padding-left: .5rem;
 }
 
 #nav-links {
@@ -40,14 +44,14 @@ ul li a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 25px;
+    width: 35px;
     display: flex;
-    padding: 5px 0 5px 0;
-    gap: 5px;
+    padding: 8px 0 8px 0;
+    gap: 6px;
 }
 
 .nav-bar {
-    height: 3px;
+    height: 4px;
     width: 100%;
     background-color: #3fd6f0;
     border-radius: 5px;
@@ -68,11 +72,10 @@ ul li a {
     visibility: visible;
     font-family: Nunito;
     border-top: solid 1px #dcdedf;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 60px);
     gap: 20px;
     padding-left: 30px;
     padding-top: 30px;
-    overflow-y: hidden;
 }
 
 #nav-links.active a {
@@ -90,7 +93,7 @@ section {
     height: auto;
     background-color: #eef0f2;
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 #hero-section h2 {
