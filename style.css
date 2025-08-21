@@ -12,7 +12,7 @@ main {
 
 header {
     position: relative;
-    height: 50px;
+    height: 70px;
 }
 
 #nimbus-title {
@@ -26,10 +26,6 @@ header {
     pointer-events: none;
     transition: opacity 0.2s ease, transform 0.2s ease;
     visibility: hidden;
-}
-
-ul li {
-    padding: 8px 0;
 }
 
 ul li a {
@@ -64,14 +60,23 @@ ul li a {
     flex-direction: column;
     list-style-type: none;
     width: 100%;
-    text-align: center;
+    text-align: left;
     position: absolute;
     transform: translateY(0);
     z-index: 0;
     pointer-events: auto;
     visibility: visible;
     font-family: Nunito;
-    border-top: solid 1px #eef0f2;
+    border-top: solid 1px #dcdedf;
+    height: calc(100vh - 70px);
+    gap: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+    overflow-y: hidden;
+}
+
+#nav-links.active a {
+    font-size: 30px;
 }
 
 section {
