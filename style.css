@@ -8,11 +8,6 @@
     overflow-y: hidden;
 }
 
-main {
-    flex-direction: column;
-    height: auto;
-}
-
 header {
     position: relative;
     height: 60px;
@@ -306,4 +301,58 @@ footer a {
 
 .yearly-pricing-btn {
     background-color: rgb(217, 217, 217);
+}
+
+.pricing-card {
+    font-family: Nunito;
+    background-color: rgb(247, 245, 245);
+    padding: 10px 15px 20px 15px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.pricing-plan-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.pricing-features-list {
+    border-top: solid 1px gray;
+    padding: 10px 0 20px 0;
+}
+
+.bullet {
+    display: inline-block;
+    background-color: gray;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.pricing-features-list > li {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.pricing-amt {
+    font-size: 35px;
+    text-align: center;
+}
+
+.pricing-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pricing-btn-confirm {
+    font-size: 35px;
+    height: 60px;
+    width: 175px;
+    border-radius: 15px;
+    background-color: #3fd6f0;
+    border: none;
+    color: white;
 }
