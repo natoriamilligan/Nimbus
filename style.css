@@ -74,12 +74,32 @@ ul li a {
     border-top: solid 1px #dcdedf;
     height: calc(100vh - 60px);
     gap: 20px;
-    padding-left: 30px;
     padding-top: 30px;
 }
 
 #nav-links.active a {
     font-size: 30px;
+    padding-left: 30px;
+}
+
+li:has(> .nav-teams-link) {
+    list-style-type: none;
+}
+
+#nav-teams-list {
+    display: none;
+}
+
+#nav-teams-list.teams-active {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 245, 245);
+    gap: 5px;
+}
+
+#nav-links.active a.nav-teams-link {
+    font-size: 1.6rem;
+    padding-left: 45px;
 }
 
 section {
