@@ -251,7 +251,7 @@ footer a {
 /*Pricing page styling*/
 
 #pricing-container {
-    padding: 0 20px 0 20px;
+    padding: 0 20px 40px 20px;
 }
 
 #pricing-title {
@@ -328,6 +328,12 @@ footer a {
     width: 8px;
     border-radius: 50%;
     margin-right: 5px;
+}
+
+.pricing-features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .pricing-features-list > li {
