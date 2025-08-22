@@ -24,6 +24,11 @@ header {
     padding-left: .5rem;
 }
 
+#nimbus-title-link {
+    text-decoration: none;
+    color: black;
+}
+
 #nav-links {
     opacity: 0;
     transform: translateY(-10px); /* start slightly above */
