@@ -247,3 +247,58 @@ footer a {
     text-decoration: none;
     font-weight: 200;
 }
+
+/*Pricing page styling*/
+
+#pricing-container {
+    padding: 0 20px 0 20px;
+}
+
+#pricing-title {
+    font-family: Nunito;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    padding: 0 20px 0 20px;
+}
+
+#pricing-paragraph {
+    font-family: Nunito;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#pricing-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+#pricing-billing-label {
+    font-family: Nunito;
+    font-size: 25px;
+}
+
+.pricing-btn {
+    font-family: Nunito;
+    height: 35px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+.monthly-pricing-btn {
+    background-color: #3fd6f0;
+}
+
+.yearly-pricing-btn {
+    background-color: rgb(217, 217, 217);
+}
