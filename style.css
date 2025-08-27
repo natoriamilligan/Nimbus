@@ -227,6 +227,7 @@ footer {
     color: white;
     padding: 30px 25px 25px 25px;
     font-family: Nunito;
+    border: none;
 }
 
 .footer-section {
@@ -378,3 +379,84 @@ footer a {
     border: none;
     color: white;
 }
+
+/*Teams page styling*/
+.teams-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.banner-card {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-title {
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 40px;
+    padding: 0 25px 0 25px;
+}
+
+.banner-title-2 {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 0 25px 0 25px;
+}
+
+.contact-sales-btn {
+    height: 70px;
+    width: 190px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: #3fd6f0;
+}
+
+.team-feature-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-feature-title {
+    font-family: Nunito;
+    text-align: center;
+    font-size: 25px;
+}
+
+.team-feature-desc {
+    font-family: Nunito;
+    text-align: center;
+    font-size: 18px;
+}
+
+.team-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #454b52;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    color: white;
+    margin: 0;
+}
+
+.team-cta-title {
+    font-family: Nunito;
+    font-weight: 300;
+    font-size: 23px;
+    text-align: center;
+}
+
+/*Sales page styling*/
