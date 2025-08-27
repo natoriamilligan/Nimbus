@@ -1,6 +1,6 @@
-//Event listensers
 
-document.addEventListener("DOMContentLoaded", () => {
+
+    //Event Listeners
     const navToggle = document.getElementById("nav-toggle");
     const navLinks = document.getElementById("nav-links");
     const bodyTag = document.getElementsByTagName("body")[0];
@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     navToggle.addEventListener("click", () => {
-        event.preventDefault();
         navLinks.classList.toggle("active");
         bodyTag.classList.toggle("no-scroll");
         navTeamsList.classList.remove("teams-active")
@@ -31,4 +30,20 @@ document.addEventListener("DOMContentLoaded", () => {
         monthlyBtn.style.backgroundColor = "#3fd6f0";
     })
 
-})
+    //Add correct monthly pricing to DOM
+    let monthlyPrices = [7.99, 12.99, 16.99, 19.99];
+
+    for (i = 0; i < 4; i++) {
+    let priceText = document.getElementsByClassName("pricing-amt")[i];
+    priceText.textContent = `$${monthlyPrices[i]} / month`;
+}
+
+
+for (i = 0; i < 4; i++) {
+    let priceBtn = document.getElementsByClassName("pricing-amt")[i];
+    
+
+    // if (priceBtn.textContent == "$7.99 / month") {
+    //     priceBtn.textConent == ""
+    // }
+}
