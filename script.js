@@ -11,6 +11,7 @@ const yearlyBtn = document.getElementsByClassName("yearly-pricing-btn")[0];
 
 
 navToggle.addEventListener("click", () => {
+    event.preventDefault()
     navLinks.classList.toggle("active");
     bodyTag.classList.toggle("no-scroll");
     navTeamsList.classList.remove("teams-active")
