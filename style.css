@@ -117,6 +117,7 @@ section {
     background-color: #eef0f2;
     padding-top: 30px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #hero-section h2 {
@@ -153,7 +154,7 @@ section {
     flex-direction: row;
     gap: 5px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -377,11 +378,10 @@ footer a {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-top: 40px;
 }
 
 .banner-card {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -393,7 +393,7 @@ footer a {
     font-weight: bold;
     font-family: Montserrat;
     font-size: 40px;
-    padding: 0 25px 0 25px;
+    padding: 40px 25px 0 25px;
 }
 
 .banner-title-2 {
@@ -413,12 +413,30 @@ footer a {
     border-radius: 40px;
     border: none;
     background-color: #3fd6f0;
+    font-family: Nunito;
+    font-size: 22px;
+}
+
+.team-testimonial {
+    background-color: #454b52;
+    color: white;
+    padding: 20px 25px 20px 25px;
+    font-family: Nunito;
+    font-size: 25px;
+    font-weight: 200;
 }
 
 .team-feature-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.team-feature-header {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .team-feature-title {
