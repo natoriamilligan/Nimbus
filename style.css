@@ -454,11 +454,11 @@ footer a {
 .team-cta {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
     background-color: #454b52;
-    padding-bottom: 25px;
-    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-top: 18px;
     color: white;
     margin: 0;
 }
@@ -466,7 +466,7 @@ footer a {
 .team-cta-title {
     font-family: Nunito;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 24px;
     text-align: center;
 }
 
