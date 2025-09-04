@@ -384,7 +384,7 @@ footer a {
 }
 
 .banner-card {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -435,7 +435,7 @@ footer a {
     gap: 20px;
 }
 
-.team-feature-header {
+.feature-header {
     font-family: Montserrat;
     text-align: center;
     font-size: 30px;
@@ -475,4 +475,29 @@ footer a {
     text-align: center;
 }
 
-/*Sales page styling*/
+/*Enterprise page styling*/
+
+#enterprise-features-section {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    gap: 20px;
+}
+
+#enterprise-features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.enterprise-feature-title {
+    font-family: Nunito;
+    font-size: 30px;
+    text-align: center;
+}
+
+.enterprise-feature-desc {
+    font-family: Nunito;
+    font-size: 20px;
+    text-align: center;
+}
