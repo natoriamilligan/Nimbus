@@ -527,3 +527,22 @@ footer a {
     padding-top: 18px;
     gap: 15px;
 }
+
+/* Contact page stying */
+
+#contact-info {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#contact-info h1 {
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#contact-info p {
+    font-family: Nunito;
+    font-size: 25px;
+}
