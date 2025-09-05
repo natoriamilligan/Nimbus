@@ -343,13 +343,16 @@ footer a {
 }
 
 .pricing-btn-confirm {
-    font-size: 30px;
-    height: 60px;
-    width: 175px;
-    border-radius: 15px;
-    background-color: #3fd6f0;
+    height: 70px;
+    width: 190px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 40px;
     border: none;
-    color: white;
+    background-color: #3fd6f0;
+    font-family: Nunito;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 /*Teams page styling*/
