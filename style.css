@@ -132,8 +132,16 @@ section {
     margin-top: 10px;
 }
 
-#hero-section button:hover {
+button:hover {
     background-color: #1fc5e2;
+}
+
+.get-started-btn {
+    text-decoration: none;
+}
+
+.get-started-btn:visited {
+   color: black;
 }
 
 .dot-separator {
