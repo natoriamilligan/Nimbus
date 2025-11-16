@@ -137,6 +137,7 @@ button:hover {
 
 .get-started-btn {
     text-decoration: none;
+    color: black;
 }
 
 .get-started-btn:visited {
