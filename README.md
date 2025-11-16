@@ -8,6 +8,12 @@ Nimbus is a fake SaaS website I decided to create to showcase my programming ski
 * ![Javascript][JS]
 * ![CSS][CSS-badge]
 
+## 📫 Contact
+
+Natoria Milligan - [@natoriamilligan](https://x.com/natoriamilligan) - natoriamilligan@gmail.com
+
+
+
 
 [HTML-badge]: https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge
 [JS]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge
