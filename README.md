@@ -1,7 +1,7 @@
 # Nimbus
 
 ## ❓ About
-Nimbus is a fake responsive SaaS website I decided to create to showcase my programming skills with just HTML, CSS, and Javascript. I wanted to have a project that I styled from scratch and prove to myself that I could overcome styling obstacles without using a framework.  
+Nimbus is a fake responsive SaaS website I decided to create to showcase my programming skills with just HTML, CSS, and Javascript. I wanted to have a project that I styled from scratch and prove to myself that I could overcome styling obstacles without using a framework. [Link to demo](http://www.natoria.tech/Nimbus/)
 
 ## 🧰 Tech
 * ![HTML][HTML-badge]
