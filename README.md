@@ -1,13 +1,19 @@
 # Nimbus
 
 ## ❓ About
-Nimbus is a fake SaaS website I decided to create to showcase my programming skills with just HTML, CSS, and Javascript. I wanted to have a project that I styled from scratch and prove to myself that I could overcome styling obstacles without using a framework. 
+Nimbus is a fake responsive SaaS website I decided to create to showcase my programming skills with just HTML, CSS, and Javascript. I wanted to have a project that I styled from scratch and prove to myself that I could overcome styling obstacles without using a framework.  
 
 ## 🧰 Tech
 * ![HTML][HTML-badge]
 * ![Javascript][JS]
 * ![CSS][CSS-badge]
 
+## 🧠 What I Learned
+- Transitions and how to use them
+- How to create a hamburger icon for a navbar
+- How to create a drop down navigation
+- How to use media queries for responsiveness
+  
 ## 📫 Contact
 
 Natoria Milligan - [@natoriamilligan](https://x.com/natoriamilligan) - natoriamilligan@gmail.com
