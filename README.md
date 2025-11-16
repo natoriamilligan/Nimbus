@@ -13,6 +13,12 @@ Nimbus is a fake responsive SaaS website I decided to create to showcase my prog
 - How to create a hamburger icon for a navbar
 - How to create a drop down navigation
 - How to use media queries for responsiveness
+
+## 🗺️ Roadmap
+- [ ] Add padding for each page
+- [ ] Add checkout pages
+- [ ] Add fake company logos to as-seen-on section of home page
+- [ ] Add pictures to website
   
 ## 📫 Contact
 
